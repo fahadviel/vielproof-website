@@ -15,6 +15,9 @@ Then visit `http://localhost:8000` to view the site.
 ## Structure
 
 - `index.html` – main landing page
+- `privacy.html` – privacy policy
+- `about.html` – information about VielProof
+- `contact.html` – contact form
 - `style.css` – basic styling
 
 Feel free to extend the styles or add additional pages as needed.
