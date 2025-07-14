@@ -20,6 +20,10 @@ body {
   text-decoration: none;
 }
 
+.logo img {
+  height: 40px;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -87,4 +91,39 @@ body {
   padding: 1rem;
   background-color: #000;
   color: #fff;
+}
+
+.content {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 0.75rem;
+  background-color: #4A00E0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #8E2DE2;
 }
